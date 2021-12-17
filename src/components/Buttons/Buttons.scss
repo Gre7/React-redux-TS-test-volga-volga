@@ -1,0 +1,75 @@
+button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #4ec380;
+  color: #fff;
+  transition: color 0.8s, background-color 1s;
+}
+
+.two {
+  width: 50% !important;
+}
+
+.dough-buttons-container {
+  width: 100%;
+}
+
+.button-dough {
+  width: 50%;
+  margin-top: 15px;
+  padding: 15px 30px;
+  font-size: 0.8rem;
+}
+
+.button-dough:not(.active):hover {
+  background-color: #d7f2e0;
+}
+
+.button-dough:first-child {
+  border: 1px solid #e3e2e4;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.button-dough:last-child {
+  border: 1px solid #e3e2e4;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.size-buttons {
+  margin-top: 15px;
+}
+
+.button-size {
+  width: 33%;
+  padding: 15px 20px;
+}
+
+.button-size:not(.active):hover {
+  background-color: #d7f2e0;
+}
+
+.button-size:first-child {
+  border: 1px solid #e3e2e4;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.button-size:nth-child(2) {
+  border: 1px solid #e3e2e4;
+  border-right: none;
+  border-left: none;
+}
+
+.button-size:last-child {
+  border: 1px solid #e3e2e4;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+
